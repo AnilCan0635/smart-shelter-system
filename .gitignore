@@ -1,0 +1,49 @@
+# ===============================
+# Secrets & Environment Variables
+# ===============================
+**/.env
+**/.env.*
+!.env.example
+*.env
+
+# ===============================
+# Node.js & Web (Backend / Admin)
+# ===============================
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+dist-ssr/
+build/
+
+# ===============================
+# Flutter & Dart (Mobile App)
+# ===============================
+**/.dart_tool/
+**/.flutter-plugins*
+**/.pub-cache/
+**/.pub/
+**/build/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Pods/
+**/.symlinks/
+**/.gradle/
+**/local.properties
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# ===============================
+# IDEs & Operating System & Archives
+# ===============================
+**/.idea/
+**/.vscode/
+*.iml
+*.iws
+*.ipr
+**/.DS_Store
+Thumbs.db
+*.log
+*.zip
